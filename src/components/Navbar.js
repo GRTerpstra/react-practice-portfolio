@@ -2,7 +2,7 @@ import { icon } from '@fortawesome/fontawesome-svg-core'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import logo from '../assets/Profielfoto.jpg'
+import logo from '../assets/logo-1.jpg'
 import './Navbar.scss'
 
 const Navbar = () => {  

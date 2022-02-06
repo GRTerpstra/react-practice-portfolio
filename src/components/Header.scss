@@ -1,0 +1,60 @@
+$primary-white: #fff;
+$primary-orange: #f9ab00;
+$primary-red: #ef4035;
+$primary-hover-red: #f33501;
+
+.header-wrapper {
+    position: relative;
+    background: url('../assets/background-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-info h1 {
+    color: $primary-orange;
+    margin: 0px 3rem;
+    text-transform: uppercase;
+}
+
+.main-info .typed-tekst {
+    font-size: 2rem;
+    color: $primary-white;
+}
+
+.main-info .btn-main-offer {
+    border: 1px solid $primary-red;
+    margin: 2rem;
+    text-transform: uppercase;
+    padding: 0.625rem 0.74rem 0.74rem 0.74rem;
+    text-decoration: none;
+    color: $primary-white;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+        background-color: $primary-hover-red;
+        color: $primary-white;
+    }
+}
+
+@media(max-width: 768px) {
+    .main-info h1 {
+        font-size: 1.5rem !important;
+    }
+    .main-info .typed-tekst {
+        font-size: 1.3rem !important;
+    }
+}

@@ -1,13 +1,13 @@
 import './App.scss';
-import Navbar from './components/Navbar.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar.js';
+import Header from './components/Header.js';
 
 function App() {
   return (
-    <>
-    
-    <Navbar/>
-    <h2> Portfolio Project...</h2>
+    <>    
+    <Navbar /> 
+    <Header />
     </>
   );
 }
