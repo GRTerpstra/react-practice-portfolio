@@ -1,0 +1,39 @@
+$pimary-white: #fff;
+$pimray-orange: #f9ab00;
+
+.navbar .navbar-brand {
+    max-width: 17rem;
+    padding: 0 !important;
+}
+
+.navbar .logo {
+    height: 5rem;
+}
+
+.navbar .nav-item a {    
+    margin-right: 0.75rem;    
+    margin-left: 0.75rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: $pimary-white !important;    
+    border-top: 0.18rem solid rgba(255,255,255, 0);
+    user-select: none;
+
+    &:hover {
+        color: rgba(255, 255, 255, 60%) !important;
+        transition: 0s;
+    }
+}
+
+.navbar .nav-item a:focus {
+    border-top: 0.18rem solid $pimray-orange;
+
+    @media(max-width: 62rem) {
+        border-top: 0.18rem solid rgba(255,255,255, 0);
+    }
+}
+
+.navbar .navbar-toggler icon {
+    color: white;
+}
