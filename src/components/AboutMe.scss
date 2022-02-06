@@ -1,0 +1,27 @@
+$primary-white: #fff;
+$primary-orange: #f9ab00;
+$primary-red: #ef4035;
+$primary-hover-red: #f33501;
+
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 20rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: 1px solid $primary-orange;
+}
+
+.about-heading {
+    color: $primary-orange;
+    text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+    .profile-img {
+        width: 10rem;
+    }
+}
