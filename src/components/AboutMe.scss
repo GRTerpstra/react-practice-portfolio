@@ -3,11 +3,11 @@ $primary-orange: #f9ab00;
 $primary-red: #ef4035;
 $primary-hover-red: #f33501;
 
-.photo-wrap {
+.photo-col {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
 .profile-img {
     width: 20rem;
     border-radius: 50%;

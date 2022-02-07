@@ -6,13 +6,11 @@ const AboutMe = () => {
     return (
         <div className="container py-5">
             <div className="row">
-                <div className="col-lg-6 col-xm-12">
-                    <div className="photo-wrap mb-5">
-                        <img className="profile-img" src={Me} alt="Picture of the author..." />
-                    </div>
+                <div className="photo-col col-lg-6 col-xm-12">
+                    <img className="profile-img" src={Me} alt="Picture of the author..." />
                 </div>
                 <div className="col-lg-6 col-xm-12">
-                    <h1 className='about-heading'>About me:</h1>
+                    <h1 className='about-heading'>About me</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Maxime laborum eos quibusdam quia molestiae quam, 
                         quasi consequatur iure doloribus inventore sed quo vel suscipit quos reiciendis atque et odio sit!
