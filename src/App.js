@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar.js';
 import Header from './components/Header.js';
 import AboutMe from './components/AboutMe.js';
-import Services from './components/Services';
+import Services from './components/Services.js';
+import Experiences from './components/Experiences.js'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header />
     <AboutMe />
     <Services />
+    <Experiences />
     </>
   );
 }
