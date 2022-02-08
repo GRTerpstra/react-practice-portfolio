@@ -1,0 +1,53 @@
+$primary-gray: #ccd1d9;
+$primary-dark-gray: #666666;
+$primary-white: #fff;
+$primary-orange: #f9ab00;
+$primary-red: #ef4035;
+$primary-hover-red: #f33501;
+$primary-light-gray: #f4f4f4;
+$primary-dark: rgb(52, 58, 64);
+$primary-black: #000000;
+$primary-transparent-black: rgb(0, 0, 0, 70%);
+
+.my-carousel {
+    color: $primary-white;
+    background: transparent !important;
+    margin: -6% auto auto;
+    width: 54%;
+    padding: 7% 5% 8% 5%;
+    height: 15.875rem;
+}
+
+.my-carousel h3 {
+    color: $primary-orange;
+    font-weight: 600;
+}
+
+.my-carousel p {
+    color: $primary-gray;
+}
+
+.carousel .slide {
+    background: transparent !important;
+    height: 100% !important;
+    padding-top: 2rem !important;
+}
+
+.carousel .slide img {
+    width: 10rem !important;
+}
+
+.carousel .control-arrow {
+    width: 2rem;
+    transition: 0s !important;
+}
+
+.carousel .control-arrow::before {
+    transform: scale(200%);
+}
+
+
+.carousel-root {
+    margin: auto !important;
+    margin-top: 3% !important;
+}

@@ -1,5 +1,5 @@
-$primary-grey: #ccd1d9;
-$primary-dark-grey: #666666;
+$primary-gray: #ccd1d9;
+$primary-dark-gray: #666666;
 $primary-white: #fff;
 $primary-orange: #f9ab00;
 $primary-red: #ef4035;
@@ -23,7 +23,7 @@ $primary-dark: rgb(52, 58, 64);
         margin-left: -0.0625rem;
         width: 0.125rem;
         height: 100%;
-        background-color: $primary-grey;
+        background-color: $primary-gray;
         z-index: 1;
     }
 }
@@ -63,7 +63,7 @@ $primary-dark: rgb(52, 58, 64);
 .timeline-content {
     width: 95%;
     padding: 0 0.9375rem;
-    color: $primary-dark-grey;
+    color: $primary-dark-gray;
     direction: ltr;
 }
 
