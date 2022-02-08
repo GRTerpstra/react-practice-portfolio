@@ -1,0 +1,122 @@
+$primary-gray: #ccd1d9;
+$primary-dark-gray: #666666;
+$primary-white: #fff;
+$primary-orange: #f9ab00;
+$primary-red: #ef4035;
+$primary-hover-red: #f33501;
+$primary-light-gray: #f4f4f4;
+$primary-dark: rgb(52, 58, 64);
+$primary-black: #000000;
+$primary-transparent-black: rgb(0, 0, 0, 70%);
+$primary-green: green;
+
+.contacts {
+    background-color: $primary-dark;
+    padding: 3rem 0;
+}
+
+.contacts h1 {
+    color: $primary-orange;
+    padding: 1.3rem auto;
+    text-transform: uppercase;
+}
+
+.contacts p {
+    color: $primary-light-gray;
+    font-size: 1.2rem;
+}
+
+.contacts input, .contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid $primary-gray;
+    border-radius: 0;
+    color: $primary-gray;
+    outline: 0 !important;
+    box-shadow: none !important;
+    color: $primary-orange;
+    padding-left: 0 !important;
+
+    &:focus {
+        color: $primary-orange;
+        background: transparent;
+        border-bottom: 0.125rem solid $primary-gray
+    }
+}
+
+.contacts .container {
+    padding: 4rem 0;
+}
+
+.contacts textarea {
+    height: 12.2rem !important;
+    margin: -0.3rem 0;
+}
+
+.container input {
+    margin: -0.3rem 0;
+}
+
+.contact-btn {
+    width: 25%;
+    border: 1px solid $primary-red;
+    text-transform: uppercase;
+    padding: 0.625rem 0.74rem 0.74rem 0.74rem;
+    text-decoration: none;
+    color: $primary-white;
+    transition: 0.1s ease-in-out;
+    background: transparent;
+    margin: 2rem auto;
+
+    &:hover {
+        background-color: $primary-hover-red;
+        color: $primary-white;
+    }
+}
+
+.line {
+    position: relative;
+    width: 0;
+    height: 0.125rem;
+    background-color: $primary-orange;
+    display: inline-block;
+    top: -0.75rem;
+}
+
+input:focus+.line {
+    width: 100%;
+    transition: width 0.5s;
+}
+
+textarea:focus+.line {
+    width: 100%;
+    transition: width 0.5s;
+
+}
+
+@media(max-width: 768px) {
+    .contacts {
+       overflow-x: hidden;
+    }
+    .contacts .container {
+        padding: 0 1rem;
+    }
+    .contacts p {
+        padding: 0.4rem;
+    }
+}
+
+.error-message {
+    color: $primary-white;
+    background-color: $primary-red;
+    text-align: left;
+}
+
+.success-message {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: $primary-green;
+}

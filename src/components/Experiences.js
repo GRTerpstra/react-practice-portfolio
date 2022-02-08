@@ -10,7 +10,6 @@ const Experiences = () => {
             <div className="container experiences-wrapper">
                 <div className="timeline-block timeline-block-left">
                     <div className="marker">
-
                     </div>
                     <div className="timeline-content">
                         <h3>2014-2015</h3>
