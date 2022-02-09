@@ -3,7 +3,7 @@ import './Experiences.scss';
 
 const Experiences = () => {
     return (
-        <div className="experiences">
+        <div className="experiences" id='experiences'>
             <div className="d-flex justify-content-center my-5">
                 <h1>experience</h1>
             </div>

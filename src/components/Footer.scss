@@ -1,0 +1,50 @@
+$primary-gray: #ccd1d9;
+$primary-dark-gray: #666666;
+$primary-white: #fff;
+$primary-orange: #f9ab00;
+$primary-red: #ef4035;
+$primary-hover-red: #f33501;
+$primary-light-gray: #f4f4f4;
+$primary-dark: rgb(52, 58, 64);
+$primary-black: #000000;
+$primary-transparent-black: rgb(0, 0, 0, 70%);
+$primary-green: green;
+
+.footer {
+    background-color: $primary-black;
+    color: $primary-dark-gray;
+    padding: 3rem;
+
+    @media(max-width: 991px) {
+        text-align: center;
+    }
+}
+
+.column {
+    margin-bottom: 1rem;
+
+    @media(min-width: 576px) {
+        margin-bottom: 2rem;
+    }
+}
+
+.col {
+    flex-direction: column;
+    display: flex;
+}
+
+.footer p {
+    margin-bottom: 0.2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: $primary-dark-gray;
+    margin-bottom: 0.2rem;    
+
+        &:hover {
+        color: $primary-orange;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

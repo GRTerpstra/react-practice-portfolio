@@ -4,7 +4,7 @@ import './AboutMe.scss';
 
 const AboutMe = () => {
     return (
-        <div className="container py-5">
+        <div className="container py-5" id="about-me">
             <div className="row">
                 <div className="photo-col col-lg-6 col-xm-12">
                     <img className="profile-img" src={Me} alt="Picture of the author..." />
