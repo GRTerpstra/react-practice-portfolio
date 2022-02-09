@@ -23,7 +23,7 @@ const AboutMe = () => {
                         quasi consequatur iure doloribus inventore sed quo vel suscipit quos reiciendis atque et odio sit!
                         <br /><br />
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloremque nostrum eius dolore, vel natu</p>
+                        Doloremque nostrum eius dolore, vel natu Lorem.</p>
                 </div>
             </div>
         </div>
