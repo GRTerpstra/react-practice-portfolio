@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-practice-portfolio/static/css/main.7e656651.css",
+    "main.js": "/react-practice-portfolio/static/js/main.ed8e17e7.js",
+    "static/js/787.03ebb6f2.chunk.js": "/react-practice-portfolio/static/js/787.03ebb6f2.chunk.js",
+    "static/media/netflix.png": "/react-practice-portfolio/static/media/netflix.5a78c4b980990001021b.png",
+    "static/media/city-guide-app.png": "/react-practice-portfolio/static/media/city-guide-app.e4843bd01dc4d1634538.png",
+    "static/media/portfolio.png": "/react-practice-portfolio/static/media/portfolio.e4d369bc88d9501b6330.png",
+    "static/media/testimonials-bg.jpg": "/react-practice-portfolio/static/media/testimonials-bg.75612be74ca26cb2eee2.jpg",
+    "static/media/task-manager.png": "/react-practice-portfolio/static/media/task-manager.7cdcc29ec2944720c44f.png",
+    "static/media/background-1.jpg": "/react-practice-portfolio/static/media/background-1.f9e274f49e7f72950a2f.jpg",
+    "static/media/me.jpeg": "/react-practice-portfolio/static/media/me.9a7a1cf15e9656b8084f.jpeg",
+    "static/media/avatar-4.png": "/react-practice-portfolio/static/media/avatar-4.f7fb7ed7493d87bbba75.png",
+    "static/media/avatar-3.png": "/react-practice-portfolio/static/media/avatar-3.d6c9b46f1e2a3bbfbefa.png",
+    "static/media/avatar-1.png": "/react-practice-portfolio/static/media/avatar-1.9277ecea7570a7cb523d.png",
+    "static/media/avatar-2.png": "/react-practice-portfolio/static/media/avatar-2.75d8f23ea5e97b4d897d.png",
+    "static/media/logo-1.jpg": "/react-practice-portfolio/static/media/logo-1.8aae9eefe67d72edac68.jpg",
+    "index.html": "/react-practice-portfolio/index.html",
+    "main.7e656651.css.map": "/react-practice-portfolio/static/css/main.7e656651.css.map",
+    "main.ed8e17e7.js.map": "/react-practice-portfolio/static/js/main.ed8e17e7.js.map",
+    "787.03ebb6f2.chunk.js.map": "/react-practice-portfolio/static/js/787.03ebb6f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e656651.css",
+    "static/js/main.ed8e17e7.js"
+  ]
+}
